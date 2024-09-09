@@ -1,0 +1,178 @@
+/******** GLOBAL STYLES ********/
+body {
+    background: #f2f4f4;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+h1 {
+    text-transform: none;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 34px;
+    font-family: "Dancing Script", cursive;
+    font-weight: lighter;
+    text-transform: none;
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+
+/******** HEADER STYLES ********/
+header h1 {
+    width: 425px;
+    float: left;
+    margin: 0;
+    padding: 36px 0;
+
+}
+
+header h1 span {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+
+}
+
+header h1 {
+    font-size: 16px;
+
+}
+
+
+header nav {
+    float: right;
+    padding: 44px 0;
+
+
+}
+
+header nav ul {
+    padding: 0;
+    text-align: right;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 10px;
+    text-decoration: none;
+
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+/********  MAIN STYLES ********/
+/******** TOP SECTION ********/
+.main-image img {
+    padding-left: 45px;
+    padding-right: 95px;
+  
+}
+
+
+.main-title h2 {
+   margin-top: 40px;
+
+}
+
+/******** BOTTOM SECTION ********/
+.bottom-section .content-wrapper {
+    border-top: 3px solid darkslategray;
+    border-bottom: 3px solid darkslategray;
+    line-height: 15px;
+    margin-top: 40px;
+
+
+}
+
+.section-one,
+.section-two,
+.section-three { 
+    box-sizing: border-box;
+    float: left;
+}
+
+.section-one {
+    width: 350px;
+    padding-left: 2%;
+    padding-right: 20px;
+    
+}
+
+.section-two {
+    width: 500px;
+    border-right: 3px solid darkslategray;
+    border-left: 3px solid darkslategray; 
+    padding-left: 7%;
+    padding-right: 20px;
+}
+
+.section-three {
+    width: 350px;
+    padding-left: 2%;
+ 
+
+}
+
+.bottom-section h3 {
+
+}
+
+.menu-list {
+
+}
+
+.menu-list li {
+
+}
+
+/******** FOOTER STYLES ********/
+footer {
+    text-align: center;
+
+}
+
+footer span {
+
+}
